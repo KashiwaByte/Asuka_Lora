@@ -11,6 +11,8 @@ https://www.birme.net/?target_width=512&target_height=512
 
 https://github.com/picobyte/stable-diffusion-webui-wd14-tagger
 https://github.com/toshiaki1729/stable-diffusion-webui-dataset-tag-editor
+
+
 请先将以上两个插件安装在extensions目录下，用于后续打标。
 ![image.png](https://kashiwa-pic.oss-cn-beijing.aliyuncs.com/20240228203720.png)
 
@@ -42,8 +44,8 @@ https://colab.research.google.com/github/hollowstrawberry/kohya-colab/blob/main/
 ![image.png](https://kashiwa-pic.oss-cn-beijing.aliyuncs.com/20240228210019.png)
 首先为你的项目创建一个名字，在projec_name框中输入，我这里直接取名为 Asuka_Lora.
 ## 数据集上传
-1.接着我们需要在Google Drive中创建 *Loras*文件夹。
-2.进入Lora文件夹后创建一个项目文件的同名(我的就是Asuka_Lora)的文件夹。
+1.接着我们需要在Google Drive中创建 *Loras*文件夹。  
+2.进入Lora文件夹后创建一个项目文件的同名(我的就是Asuka_Lora)的文件夹。  
 3.然后在这个文件夹下创建一个*dataset*文件夹。  
 4.最后将本地包含tag和图片的文件夹上传到dataset文件夹中。
 
