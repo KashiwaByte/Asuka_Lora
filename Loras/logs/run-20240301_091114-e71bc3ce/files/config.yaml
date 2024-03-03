@@ -1,0 +1,496 @@
+LoRA_type:
+  desc: null
+  sort: 0
+  value: LyCORIS/iA3
+LyCORIS_preset:
+  desc: null
+  sort: 1
+  value: full
+adaptive_noise_scale:
+  desc: null
+  sort: 2
+  value: 0.005
+additional_parameters:
+  desc: null
+  sort: 3
+  value: ''
+block_alphas:
+  desc: null
+  sort: 4
+  value: ''
+block_dims:
+  desc: null
+  sort: 5
+  value: ''
+block_lr_zero_threshold:
+  desc: null
+  sort: 6
+  value: ''
+bucket_no_upscale:
+  desc: null
+  sort: 7
+  value: true
+bucket_reso_steps:
+  desc: null
+  sort: 8
+  value: 64
+cache_latents:
+  desc: null
+  sort: 9
+  value: true
+cache_latents_to_disk:
+  desc: null
+  sort: 10
+  value: false
+caption_dropout_every_n_epochs:
+  desc: null
+  sort: 11
+  value: 0.0
+caption_dropout_rate:
+  desc: null
+  sort: 12
+  value: 0.5
+caption_extension:
+  desc: null
+  sort: 13
+  value: ''
+clip_skip:
+  desc: null
+  sort: 14
+  value: '1'
+color_aug:
+  desc: null
+  sort: 15
+  value: false
+constrain:
+  desc: null
+  sort: 16
+  value: 0.0
+conv_alpha:
+  desc: null
+  sort: 17
+  value: 1
+conv_block_alphas:
+  desc: null
+  sort: 18
+  value: ''
+conv_block_dims:
+  desc: null
+  sort: 19
+  value: ''
+conv_dim:
+  desc: null
+  sort: 20
+  value: 1
+debiased_estimation_loss:
+  desc: null
+  sort: 21
+  value: false
+decompose_both:
+  desc: null
+  sort: 22
+  value: false
+dim_from_weights:
+  desc: null
+  sort: 23
+  value: false
+down_lr_weight:
+  desc: null
+  sort: 24
+  value: ''
+enable_bucket:
+  desc: null
+  sort: 25
+  value: true
+epoch:
+  desc: null
+  sort: 26
+  value: 300
+factor:
+  desc: null
+  sort: 27
+  value: -1
+flip_aug:
+  desc: null
+  sort: 28
+  value: false
+fp8_base:
+  desc: null
+  sort: 29
+  value: false
+full_bf16:
+  desc: null
+  sort: 30
+  value: false
+full_fp16:
+  desc: null
+  sort: 31
+  value: false
+gpu_ids:
+  desc: null
+  sort: 32
+  value: ''
+gradient_accumulation_steps:
+  desc: null
+  sort: 33
+  value: 1
+gradient_checkpointing:
+  desc: null
+  sort: 34
+  value: true
+keep_tokens:
+  desc: null
+  sort: 35
+  value: 1
+learning_rate:
+  desc: null
+  sort: 36
+  value: 1.0
+logging_dir:
+  desc: null
+  sort: 37
+  value: C:\Users\94427\kashiwa\Asuka\Loras
+lora_network_weights:
+  desc: null
+  sort: 38
+  value: ''
+lr_scheduler:
+  desc: null
+  sort: 39
+  value: constant
+lr_scheduler_args:
+  desc: null
+  sort: 40
+  value: ''
+lr_scheduler_num_cycles:
+  desc: null
+  sort: 41
+  value: ''
+lr_scheduler_power:
+  desc: null
+  sort: 42
+  value: ''
+lr_warmup:
+  desc: null
+  sort: 43
+  value: 0
+max_bucket_reso:
+  desc: null
+  sort: 44
+  value: 2048
+max_data_loader_n_workers:
+  desc: null
+  sort: 45
+  value: '0'
+max_grad_norm:
+  desc: null
+  sort: 46
+  value: 1
+max_resolution:
+  desc: null
+  sort: 47
+  value: 512,512
+max_timestep:
+  desc: null
+  sort: 48
+  value: 1000
+max_token_length:
+  desc: null
+  sort: 49
+  value: '75'
+max_train_epochs:
+  desc: null
+  sort: 50
+  value: ''
+max_train_steps:
+  desc: null
+  sort: 51
+  value: ''
+mem_eff_attn:
+  desc: null
+  sort: 52
+  value: false
+mid_lr_weight:
+  desc: null
+  sort: 53
+  value: ''
+min_bucket_reso:
+  desc: null
+  sort: 54
+  value: 256
+min_snr_gamma:
+  desc: null
+  sort: 55
+  value: 5
+min_timestep:
+  desc: null
+  sort: 56
+  value: 0
+mixed_precision:
+  desc: null
+  sort: 57
+  value: fp16
+model_list:
+  desc: null
+  sort: 58
+  value: custom
+module_dropout:
+  desc: null
+  sort: 59
+  value: 0
+multi_gpu:
+  desc: null
+  sort: 60
+  value: false
+multires_noise_discount:
+  desc: null
+  sort: 61
+  value: 0
+multires_noise_iterations:
+  desc: null
+  sort: 62
+  value: 0
+network_alpha:
+  desc: null
+  sort: 63
+  value: 1024
+network_dim:
+  desc: null
+  sort: 64
+  value: 1024
+network_dropout:
+  desc: null
+  sort: 65
+  value: 0.3
+noise_offset:
+  desc: null
+  sort: 66
+  value: 0.05
+noise_offset_type:
+  desc: null
+  sort: 67
+  value: Original
+num_cpu_threads_per_process:
+  desc: null
+  sort: 68
+  value: 2
+num_machines:
+  desc: null
+  sort: 69
+  value: 1
+num_processes:
+  desc: null
+  sort: 70
+  value: 1
+optimizer:
+  desc: null
+  sort: 71
+  value: Prodigy
+optimizer_args:
+  desc: null
+  sort: 72
+  value: d_coef=1.0 weight_decay=0.01 safeguard_warmup=False use_bias_correction=False
+output_dir:
+  desc: null
+  sort: 73
+  value: C:\Users\94427\kashiwa\Asuka\Loras
+output_name:
+  desc: null
+  sort: 74
+  value: last
+persistent_data_loader_workers:
+  desc: null
+  sort: 75
+  value: false
+pretrained_model_name_or_path:
+  desc: null
+  sort: 76
+  value: runwayml/stable-diffusion-v1-5
+prior_loss_weight:
+  desc: null
+  sort: 77
+  value: 1.0
+random_crop:
+  desc: null
+  sort: 78
+  value: false
+rank_dropout:
+  desc: null
+  sort: 79
+  value: 0
+rank_dropout_scale:
+  desc: null
+  sort: 80
+  value: false
+reg_data_dir:
+  desc: null
+  sort: 81
+  value: ''
+rescaled:
+  desc: null
+  sort: 82
+  value: false
+resume:
+  desc: null
+  sort: 83
+  value: ''
+sample_every_n_epochs:
+  desc: null
+  sort: 84
+  value: 0
+sample_every_n_steps:
+  desc: null
+  sort: 85
+  value: 0
+sample_prompts:
+  desc: null
+  sort: 86
+  value: ''
+sample_sampler:
+  desc: null
+  sort: 87
+  value: euler_a
+save_every_n_epochs:
+  desc: null
+  sort: 88
+  value: 10
+save_every_n_steps:
+  desc: null
+  sort: 89
+  value: 0
+save_last_n_steps:
+  desc: null
+  sort: 90
+  value: 0
+save_last_n_steps_state:
+  desc: null
+  sort: 91
+  value: 0
+save_model_as:
+  desc: null
+  sort: 92
+  value: safetensors
+save_precision:
+  desc: null
+  sort: 93
+  value: fp16
+save_state:
+  desc: null
+  sort: 94
+  value: false
+scale_v_pred_loss_like_noise_pred:
+  desc: null
+  sort: 95
+  value: false
+scale_weight_norms:
+  desc: null
+  sort: 96
+  value: 1
+sdxl:
+  desc: null
+  sort: 97
+  value: false
+sdxl_cache_text_encoder_outputs:
+  desc: null
+  sort: 98
+  value: false
+sdxl_no_half_vae:
+  desc: null
+  sort: 99
+  value: true
+seed:
+  desc: null
+  sort: 100
+  value: '31337'
+shuffle_caption:
+  desc: null
+  sort: 101
+  value: true
+stop_text_encoder_training_pct:
+  desc: null
+  sort: 102
+  value: 0
+text_encoder_lr:
+  desc: null
+  sort: 103
+  value: 1.0
+train_batch_size:
+  desc: null
+  sort: 104
+  value: 1
+train_data_dir:
+  desc: null
+  sort: 105
+  value: C:\Users\94427\kashiwa\Asuka\dataset
+train_norm:
+  desc: null
+  sort: 106
+  value: false
+train_on_input:
+  desc: null
+  sort: 107
+  value: true
+training_comment:
+  desc: null
+  sort: 108
+  value: rentry.co/ProdiAgy
+unet_lr:
+  desc: null
+  sort: 109
+  value: 1.0
+unit:
+  desc: null
+  sort: 110
+  value: 1
+up_lr_weight:
+  desc: null
+  sort: 111
+  value: ''
+use_cp:
+  desc: null
+  sort: 112
+  value: false
+use_scalar:
+  desc: null
+  sort: 113
+  value: false
+use_tucker:
+  desc: null
+  sort: 114
+  value: false
+use_wandb:
+  desc: null
+  sort: 115
+  value: false
+v2:
+  desc: null
+  sort: 116
+  value: false
+v_parameterization:
+  desc: null
+  sort: 117
+  value: false
+v_pred_like_loss:
+  desc: null
+  sort: 118
+  value: 0
+vae:
+  desc: null
+  sort: 119
+  value: ''
+vae_batch_size:
+  desc: null
+  sort: 120
+  value: 0
+wandb_api_key:
+  desc: null
+  sort: 121
+  value: ''
+weighted_captions:
+  desc: null
+  sort: 122
+  value: false
+xformers:
+  desc: null
+  sort: 123
+  value: xformers
